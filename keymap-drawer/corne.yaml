@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - '&td1'
   - Q
   - W
   - E
@@ -26,6 +26,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - '&td0'
+  - {t: \, s: '|'}
   - Z
   - X
   - C
@@ -35,8 +36,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&td2'
   - $$mdi:apple-keyboard-option$$
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', h: Fn}
